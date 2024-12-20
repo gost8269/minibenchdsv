@@ -1,0 +1,493 @@
+[INFO ] 2024-12-01 10:09:07.821 [main] MiniBenchDsvApp - Benchmark started. Termination time will be: 2024-12-01T09:29:07.804Z
+[INFO ] 2024-12-01 10:09:07.821 [main] MiniBenchDsvApp - Benchmark settings: BENCHMARK_LENGTH_IN_MS=1200000
+, MAX_MESSAGES_IN_QUEUE=200000000
+, START_CONSUMING_MESSAGE_IN_QUEUE_SIZE=1000000
+[INFO ] 2024-12-01 10:09:07.827 [main] MiniBenchDsvApp - Used memory: 0.0 GB
+[INFO ] 2024-12-01 10:09:09.396 [producer-thread] MiniBenchDsvApp - Number of messages pending=10000000
+[INFO ] 2024-12-01 10:09:09.396 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 0.0 GB
+[INFO ] 2024-12-01 10:09:11.074 [producer-thread] MiniBenchDsvApp - Number of messages pending=20000000
+[INFO ] 2024-12-01 10:09:11.074 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 1.0 GB
+[INFO ] 2024-12-01 10:09:12.802 [producer-thread] MiniBenchDsvApp - Number of messages pending=30000000
+[INFO ] 2024-12-01 10:09:12.802 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 2.0 GB
+[INFO ] 2024-12-01 10:09:13.142 [consumer-thread] MiniBenchDsvApp - Dequeue started!
+[INFO ] 2024-12-01 10:09:14.801 [producer-thread] MiniBenchDsvApp - Number of messages pending=39900000
+[INFO ] 2024-12-01 10:09:14.801 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 2.0 GB
+[INFO ] 2024-12-01 10:09:16.735 [producer-thread] MiniBenchDsvApp - Number of messages pending=49800000
+[INFO ] 2024-12-01 10:09:16.735 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 3.0 GB
+[INFO ] 2024-12-01 10:09:19.129 [producer-thread] MiniBenchDsvApp - Number of messages pending=59700000
+[INFO ] 2024-12-01 10:09:19.129 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 4.0 GB
+[INFO ] 2024-12-01 10:09:22.945 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=69500000
+[INFO ] 2024-12-01 10:09:22.946 [consumer-thread] MiniBenchDsvApp - CPU average load: 82.275390625%
+[INFO ] 2024-12-01 10:09:23.001 [producer-thread] MiniBenchDsvApp - Number of messages pending=69500000
+[INFO ] 2024-12-01 10:09:23.001 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 4.0 GB
+[INFO ] 2024-12-01 10:09:24.711 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=73771882
+[INFO ] 2024-12-01 10:09:24.711 [worker-business-thread] MiniBenchDsvApp - CPU average load: 82.275390625%
+[INFO ] 2024-12-01 10:09:26.862 [producer-thread] MiniBenchDsvApp - Number of messages pending=79350000
+[INFO ] 2024-12-01 10:09:26.862 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 5.0 GB
+[INFO ] 2024-12-01 10:09:30.894 [producer-thread] MiniBenchDsvApp - Number of messages pending=89150000
+[INFO ] 2024-12-01 10:09:30.894 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 6.0 GB
+[INFO ] 2024-12-01 10:09:34.087 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=99050000
+[INFO ] 2024-12-01 10:09:34.087 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 169.970703125%
+[INFO ] 2024-12-01 10:09:37.208 [producer-thread] MiniBenchDsvApp - Number of messages pending=99000000
+[INFO ] 2024-12-01 10:09:37.208 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 6.0 GB
+[INFO ] 2024-12-01 10:09:37.223 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=99000000
+[INFO ] 2024-12-01 10:09:37.223 [consumer-thread] MiniBenchDsvApp - CPU average load: 172.412109375%
+[INFO ] 2024-12-01 10:09:39.019 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=106435397
+[INFO ] 2024-12-01 10:09:39.019 [worker-business-thread] MiniBenchDsvApp - CPU average load: 172.412109375%
+[INFO ] 2024-12-01 10:09:39.998 [producer-thread] MiniBenchDsvApp - Number of messages pending=108900000
+[INFO ] 2024-12-01 10:09:39.998 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 7.0 GB
+[INFO ] 2024-12-01 10:09:43.350 [producer-thread] MiniBenchDsvApp - Number of messages pending=118800000
+[INFO ] 2024-12-01 10:09:43.350 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 8.0 GB
+[INFO ] 2024-12-01 10:09:48.034 [producer-thread] MiniBenchDsvApp - Number of messages pending=128550000
+[INFO ] 2024-12-01 10:09:48.035 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 8.0 GB
+[INFO ] 2024-12-01 10:09:48.534 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=128500000
+[INFO ] 2024-12-01 10:09:48.534 [consumer-thread] MiniBenchDsvApp - CPU average load: 193.310546875%
+[INFO ] 2024-12-01 10:09:50.917 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=135411200
+[INFO ] 2024-12-01 10:09:50.917 [worker-business-thread] MiniBenchDsvApp - CPU average load: 217.87109375%
+[INFO ] 2024-12-01 10:09:52.968 [producer-thread] MiniBenchDsvApp - Number of messages pending=138350000
+[INFO ] 2024-12-01 10:09:52.968 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 9.0 GB
+[INFO ] 2024-12-01 10:09:55.571 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=143519405
+[INFO ] 2024-12-01 10:09:55.572 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 217.87109375%
+[INFO ] 2024-12-01 10:09:58.129 [producer-thread] MiniBenchDsvApp - Number of messages pending=148100000
+[INFO ] 2024-12-01 10:09:58.129 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 10.0 GB
+[INFO ] 2024-12-01 10:10:00.125 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=150846856
+[INFO ] 2024-12-01 10:10:00.125 [consumer-thread] MiniBenchDsvApp - CPU average load: 224.462890625%
+[INFO ] 2024-12-01 10:10:02.841 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=157997416
+[INFO ] 2024-12-01 10:10:02.841 [worker-business-thread] MiniBenchDsvApp - CPU average load: 238.525390625%
+[INFO ] 2024-12-01 10:10:03.312 [producer-thread] MiniBenchDsvApp - Number of messages pending=157950000
+[INFO ] 2024-12-01 10:10:03.312 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 10.0 GB
+[INFO ] 2024-12-01 10:10:08.819 [producer-thread] MiniBenchDsvApp - Number of messages pending=167650000
+[INFO ] 2024-12-01 10:10:08.819 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 11.0 GB
+[INFO ] 2024-12-01 10:10:13.775 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=177500000
+[INFO ] 2024-12-01 10:10:13.775 [consumer-thread] MiniBenchDsvApp - CPU average load: 270.751953125%
+[INFO ] 2024-12-01 10:10:19.467 [producer-thread] MiniBenchDsvApp - Number of messages pending=177500000
+[INFO ] 2024-12-01 10:10:19.467 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 12.0 GB
+[INFO ] 2024-12-01 10:10:19.467 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=177450000
+[INFO ] 2024-12-01 10:10:19.468 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 305.126953125%
+[INFO ] 2024-12-01 10:10:19.468 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=177498230
+[INFO ] 2024-12-01 10:10:19.468 [worker-business-thread] MiniBenchDsvApp - CPU average load: 305.126953125%
+[INFO ] 2024-12-01 10:10:25.372 [producer-thread] MiniBenchDsvApp - Number of messages pending=187050000
+[INFO ] 2024-12-01 10:10:25.372 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 12.0 GB
+[INFO ] 2024-12-01 10:10:25.851 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=187000000
+[INFO ] 2024-12-01 10:10:25.851 [consumer-thread] MiniBenchDsvApp - CPU average load: 304.6875%
+[INFO ] 2024-12-01 10:10:31.482 [producer-thread] MiniBenchDsvApp - Number of messages pending=196850000
+[INFO ] 2024-12-01 10:10:31.482 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 13.0 GB
+[INFO ] 2024-12-01 10:10:31.609 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=196850000
+[INFO ] 2024-12-01 10:10:31.609 [worker-business-thread] MiniBenchDsvApp - CPU average load: 342.7734375%
+[INFO ] 2024-12-01 10:10:37.695 [producer-thread] MiniBenchDsvApp - Number of messages pending=206550000
+[INFO ] 2024-12-01 10:10:37.695 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 14.0 GB
+[INFO ] 2024-12-01 10:10:38.241 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=206500000
+[INFO ] 2024-12-01 10:10:38.241 [consumer-thread] MiniBenchDsvApp - CPU average load: 347.36328125%
+[INFO ] 2024-12-01 10:10:39.587 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:10:41.578 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=206450000
+[INFO ] 2024-12-01 10:10:41.578 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 343.5546875%
+[INFO ] 2024-12-01 10:10:43.708 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=206350000
+[INFO ] 2024-12-01 10:10:43.708 [worker-business-thread] MiniBenchDsvApp - CPU average load: 343.5546875%
+[INFO ] 2024-12-01 10:10:57.333 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=206000000
+[INFO ] 2024-12-01 10:10:57.333 [consumer-thread] MiniBenchDsvApp - CPU average load: 378.271484375%
+[INFO ] 2024-12-01 10:11:00.402 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=205993296
+[INFO ] 2024-12-01 10:11:00.403 [worker-business-thread] MiniBenchDsvApp - CPU average load: 378.271484375%
+[INFO ] 2024-12-01 10:11:03.467 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=205800000
+[INFO ] 2024-12-01 10:11:03.467 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 380.029296875%
+[INFO ] 2024-12-01 10:11:11.479 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=213534794
+[INFO ] 2024-12-01 10:11:11.479 [consumer-thread] MiniBenchDsvApp - CPU average load: 399.755859375%
+[INFO ] 2024-12-01 10:11:21.609 [producer-thread] MiniBenchDsvApp - Number of messages pending=215500000
+[INFO ] 2024-12-01 10:11:21.609 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=215498435
+[INFO ] 2024-12-01 10:11:21.609 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 14.0 GB
+[INFO ] 2024-12-01 10:11:21.609 [worker-business-thread] MiniBenchDsvApp - CPU average load: 413.8671875%
+[INFO ] 2024-12-01 10:11:23.348 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:11:23.667 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=215000000
+[INFO ] 2024-12-01 10:11:23.667 [consumer-thread] MiniBenchDsvApp - CPU average load: 413.8671875%
+[INFO ] 2024-12-01 10:11:26.539 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=215000000
+[INFO ] 2024-12-01 10:11:26.539 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 396.728515625%
+[INFO ] 2024-12-01 10:11:34.823 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=214650000
+[INFO ] 2024-12-01 10:11:34.823 [worker-business-thread] MiniBenchDsvApp - CPU average load: 372.94921875%
+[INFO ] 2024-12-01 10:11:36.084 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=214500000
+[INFO ] 2024-12-01 10:11:36.084 [consumer-thread] MiniBenchDsvApp - CPU average load: 359.08203125%
+[INFO ] 2024-12-01 10:11:58.996 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=224000000
+[INFO ] 2024-12-01 10:11:58.996 [producer-thread] MiniBenchDsvApp - Number of messages pending=224000000
+[INFO ] 2024-12-01 10:11:58.996 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=224100000
+[INFO ] 2024-12-01 10:11:58.996 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=224000000
+[INFO ] 2024-12-01 10:11:58.996 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 15.0 GB
+[INFO ] 2024-12-01 10:11:58.997 [consumer-thread] MiniBenchDsvApp - CPU average load: 331.0546875%
+[INFO ] 2024-12-01 10:11:58.997 [worker-business-thread] MiniBenchDsvApp - CPU average load: 331.0546875%
+[INFO ] 2024-12-01 10:11:58.997 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 331.0546875%
+[INFO ] 2024-12-01 10:12:01.787 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:12:11.004 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=223550000
+[INFO ] 2024-12-01 10:12:11.004 [worker-business-thread] MiniBenchDsvApp - CPU average load: 295.3125%
+[INFO ] 2024-12-01 10:12:11.673 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=223500000
+[INFO ] 2024-12-01 10:12:11.673 [consumer-thread] MiniBenchDsvApp - CPU average load: 295.3125%
+[INFO ] 2024-12-01 10:12:22.325 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=223150000
+[INFO ] 2024-12-01 10:12:22.325 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 257.861328125%
+[INFO ] 2024-12-01 10:12:22.944 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=223050000
+[INFO ] 2024-12-01 10:12:22.944 [worker-business-thread] MiniBenchDsvApp - CPU average load: 257.861328125%
+[INFO ] 2024-12-01 10:12:23.476 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=223000000
+[INFO ] 2024-12-01 10:12:23.476 [consumer-thread] MiniBenchDsvApp - CPU average load: 257.861328125%
+[INFO ] 2024-12-01 10:12:35.216 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=232550000
+[INFO ] 2024-12-01 10:12:35.216 [worker-business-thread] MiniBenchDsvApp - CPU average load: 218.1640625%
+[INFO ] 2024-12-01 10:12:35.787 [producer-thread] MiniBenchDsvApp - Number of messages pending=232500000
+[INFO ] 2024-12-01 10:12:35.788 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 16.0 GB
+[INFO ] 2024-12-01 10:12:35.793 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=232500000
+[INFO ] 2024-12-01 10:12:35.793 [consumer-thread] MiniBenchDsvApp - CPU average load: 218.1640625%
+[INFO ] 2024-12-01 10:12:37.951 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:12:51.867 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=232000000
+[INFO ] 2024-12-01 10:12:51.867 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=232200000
+[INFO ] 2024-12-01 10:12:51.867 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=232050000
+[INFO ] 2024-12-01 10:12:51.867 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 335.25390625%
+[INFO ] 2024-12-01 10:12:51.867 [worker-business-thread] MiniBenchDsvApp - CPU average load: 335.25390625%
+[INFO ] 2024-12-01 10:12:51.867 [consumer-thread] MiniBenchDsvApp - CPU average load: 335.25390625%
+[INFO ] 2024-12-01 10:13:07.322 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=231550000
+[INFO ] 2024-12-01 10:13:07.322 [worker-business-thread] MiniBenchDsvApp - CPU average load: 358.251953125%
+[INFO ] 2024-12-01 10:13:07.322 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=231500000
+[INFO ] 2024-12-01 10:13:07.322 [consumer-thread] MiniBenchDsvApp - CPU average load: 358.251953125%
+[INFO ] 2024-12-01 10:13:12.370 [producer-thread] MiniBenchDsvApp - Number of messages pending=241400000
+[INFO ] 2024-12-01 10:13:12.370 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 16.0 GB
+[INFO ] 2024-12-01 10:13:14.119 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=241300000
+[INFO ] 2024-12-01 10:13:14.120 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 369.62890625%
+[INFO ] 2024-12-01 10:13:14.421 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:13:19.552 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=241050000
+[INFO ] 2024-12-01 10:13:19.552 [worker-business-thread] MiniBenchDsvApp - CPU average load: 356.005859375%
+[INFO ] 2024-12-01 10:13:19.641 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=241000000
+[INFO ] 2024-12-01 10:13:19.641 [consumer-thread] MiniBenchDsvApp - CPU average load: 356.005859375%
+[INFO ] 2024-12-01 10:13:51.941 [producer-thread] MiniBenchDsvApp - Number of messages pending=250500000
+[INFO ] 2024-12-01 10:13:51.941 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 17.0 GB
+[INFO ] 2024-12-01 10:13:51.950 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=250550000
+[INFO ] 2024-12-01 10:13:51.950 [worker-business-thread] MiniBenchDsvApp - CPU average load: 336.1328125%
+[INFO ] 2024-12-01 10:13:51.951 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=250500000
+[INFO ] 2024-12-01 10:13:51.951 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 336.1328125%
+[INFO ] 2024-12-01 10:13:51.951 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=250500000
+[INFO ] 2024-12-01 10:13:51.951 [consumer-thread] MiniBenchDsvApp - CPU average load: 336.1328125%
+[INFO ] 2024-12-01 10:13:54.837 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:14:03.966 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=250050000
+[INFO ] 2024-12-01 10:14:03.966 [worker-business-thread] MiniBenchDsvApp - CPU average load: 284.375%
+[INFO ] 2024-12-01 10:14:04.064 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=250000000
+[INFO ] 2024-12-01 10:14:04.064 [consumer-thread] MiniBenchDsvApp - CPU average load: 284.375%
+[INFO ] 2024-12-01 10:14:14.133 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=249650000
+[INFO ] 2024-12-01 10:14:14.133 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 247.94921875%
+[INFO ] 2024-12-01 10:14:15.884 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=249550000
+[INFO ] 2024-12-01 10:14:15.884 [worker-business-thread] MiniBenchDsvApp - CPU average load: 247.94921875%
+[INFO ] 2024-12-01 10:14:15.947 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=249500000
+[INFO ] 2024-12-01 10:14:15.947 [consumer-thread] MiniBenchDsvApp - CPU average load: 247.94921875%
+[INFO ] 2024-12-01 10:14:28.459 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=259050000
+[INFO ] 2024-12-01 10:14:28.459 [worker-business-thread] MiniBenchDsvApp - CPU average load: 233.0078125%
+[INFO ] 2024-12-01 10:14:28.468 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=259000000
+[INFO ] 2024-12-01 10:14:28.468 [consumer-thread] MiniBenchDsvApp - CPU average load: 233.0078125%
+[INFO ] 2024-12-01 10:14:29.316 [producer-thread] MiniBenchDsvApp - Number of messages pending=259000000
+[INFO ] 2024-12-01 10:14:29.316 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 18.0 GB
+[INFO ] 2024-12-01 10:14:36.264 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:14:43.539 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=258550000
+[INFO ] 2024-12-01 10:14:43.540 [worker-business-thread] MiniBenchDsvApp - CPU average load: 300.1953125%
+[INFO ] 2024-12-01 10:14:43.540 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=258500000
+[INFO ] 2024-12-01 10:14:43.540 [consumer-thread] MiniBenchDsvApp - CPU average load: 300.1953125%
+[INFO ] 2024-12-01 10:14:43.540 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=258750000
+[INFO ] 2024-12-01 10:14:43.540 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 300.1953125%
+[INFO ] 2024-12-01 10:14:56.707 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=258000000
+[INFO ] 2024-12-01 10:14:56.707 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=258050000
+[INFO ] 2024-12-01 10:14:56.708 [worker-business-thread] MiniBenchDsvApp - CPU average load: 271.19140625%
+[INFO ] 2024-12-01 10:14:56.708 [consumer-thread] MiniBenchDsvApp - CPU average load: 271.19140625%
+[INFO ] 2024-12-01 10:15:20.797 [producer-thread] MiniBenchDsvApp - Number of messages pending=267500000
+[INFO ] 2024-12-01 10:15:20.798 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 18.0 GB
+[INFO ] 2024-12-01 10:15:20.818 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=267500000
+[INFO ] 2024-12-01 10:15:20.818 [consumer-thread] MiniBenchDsvApp - CPU average load: 269.287109375%
+[INFO ] 2024-12-01 10:15:20.824 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=267550000
+[INFO ] 2024-12-01 10:15:20.824 [worker-business-thread] MiniBenchDsvApp - CPU average load: 269.287109375%
+[INFO ] 2024-12-01 10:15:20.824 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=267700000
+[INFO ] 2024-12-01 10:15:20.824 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 269.287109375%
+[INFO ] 2024-12-01 10:15:22.257 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:15:33.255 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=267050000
+[INFO ] 2024-12-01 10:15:33.255 [worker-business-thread] MiniBenchDsvApp - CPU average load: 232.373046875%
+[INFO ] 2024-12-01 10:15:34.845 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=267000000
+[INFO ] 2024-12-01 10:15:34.845 [consumer-thread] MiniBenchDsvApp - CPU average load: 232.373046875%
+[INFO ] 2024-12-01 10:15:43.848 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=266700000
+[INFO ] 2024-12-01 10:15:43.848 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 212.59765625%
+[INFO ] 2024-12-01 10:15:45.158 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=266600000
+[INFO ] 2024-12-01 10:15:45.158 [worker-business-thread] MiniBenchDsvApp - CPU average load: 212.59765625%
+[INFO ] 2024-12-01 10:15:47.354 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=266500000
+[INFO ] 2024-12-01 10:15:47.354 [consumer-thread] MiniBenchDsvApp - CPU average load: 203.564453125%
+[INFO ] 2024-12-01 10:15:57.020 [producer-thread] MiniBenchDsvApp - Number of messages pending=276150000
+[INFO ] 2024-12-01 10:15:57.021 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 19.0 GB
+[INFO ] 2024-12-01 10:15:57.708 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=276150000
+[INFO ] 2024-12-01 10:15:57.708 [worker-business-thread] MiniBenchDsvApp - CPU average load: 212.3046875%
+[INFO ] 2024-12-01 10:15:59.391 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:16:01.245 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=276000000
+[INFO ] 2024-12-01 10:16:01.245 [consumer-thread] MiniBenchDsvApp - CPU average load: 227.34375%
+[INFO ] 2024-12-01 10:16:13.686 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=275700000
+[INFO ] 2024-12-01 10:16:13.686 [worker-business-thread] MiniBenchDsvApp - CPU average load: 215.72265625%
+[INFO ] 2024-12-01 10:16:13.686 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=275900000
+[INFO ] 2024-12-01 10:16:13.686 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 215.72265625%
+[INFO ] 2024-12-01 10:16:13.825 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=275500000
+[INFO ] 2024-12-01 10:16:13.825 [consumer-thread] MiniBenchDsvApp - CPU average load: 215.72265625%
+[INFO ] 2024-12-01 10:16:26.058 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=275050000
+[INFO ] 2024-12-01 10:16:26.058 [worker-business-thread] MiniBenchDsvApp - CPU average load: 182.51953125%
+[INFO ] 2024-12-01 10:16:26.100 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=275000000
+[INFO ] 2024-12-01 10:16:26.100 [consumer-thread] MiniBenchDsvApp - CPU average load: 182.51953125%
+[INFO ] 2024-12-01 10:16:32.809 [producer-thread] MiniBenchDsvApp - Number of messages pending=284800000
+[INFO ] 2024-12-01 10:16:32.809 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 19.0 GB
+[INFO ] 2024-12-01 10:16:34.557 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:16:35.857 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=284650000
+[INFO ] 2024-12-01 10:16:35.857 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 170.458984375%
+[INFO ] 2024-12-01 10:16:38.526 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=284500000
+[INFO ] 2024-12-01 10:16:38.526 [consumer-thread] MiniBenchDsvApp - CPU average load: 164.794921875%
+[INFO ] 2024-12-01 10:16:38.797 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=284550000
+[INFO ] 2024-12-01 10:16:38.797 [worker-business-thread] MiniBenchDsvApp - CPU average load: 164.794921875%
+[INFO ] 2024-12-01 10:16:51.344 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=284000000
+[INFO ] 2024-12-01 10:16:51.344 [worker-business-thread] MiniBenchDsvApp - CPU average load: 144.287109375%
+[INFO ] 2024-12-01 10:16:51.913 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=284000000
+[INFO ] 2024-12-01 10:16:51.913 [consumer-thread] MiniBenchDsvApp - CPU average load: 144.287109375%
+[INFO ] 2024-12-01 10:16:59.451 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=283850000
+[INFO ] 2024-12-01 10:16:59.451 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 148.779296875%
+[INFO ] 2024-12-01 10:17:03.564 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=283550000
+[INFO ] 2024-12-01 10:17:03.565 [worker-business-thread] MiniBenchDsvApp - CPU average load: 136.865234375%
+[INFO ] 2024-12-01 10:17:04.438 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=283500000
+[INFO ] 2024-12-01 10:17:04.438 [consumer-thread] MiniBenchDsvApp - CPU average load: 136.865234375%
+[INFO ] 2024-12-01 10:17:07.716 [producer-thread] MiniBenchDsvApp - Number of messages pending=293450000
+[INFO ] 2024-12-01 10:17:07.716 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 20.0 GB
+[INFO ] 2024-12-01 10:17:09.287 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:17:16.405 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=293050000
+[INFO ] 2024-12-01 10:17:16.405 [worker-business-thread] MiniBenchDsvApp - CPU average load: 137.353515625%
+[INFO ] 2024-12-01 10:17:16.907 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=293000000
+[INFO ] 2024-12-01 10:17:16.907 [consumer-thread] MiniBenchDsvApp - CPU average load: 137.353515625%
+[INFO ] 2024-12-01 10:17:22.010 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=292900000
+[INFO ] 2024-12-01 10:17:22.010 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 134.326171875%
+[INFO ] 2024-12-01 10:17:28.655 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=292550000
+[INFO ] 2024-12-01 10:17:28.655 [worker-business-thread] MiniBenchDsvApp - CPU average load: 131.54296875%
+[INFO ] 2024-12-01 10:17:29.226 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=292500000
+[INFO ] 2024-12-01 10:17:29.227 [consumer-thread] MiniBenchDsvApp - CPU average load: 131.54296875%
+[INFO ] 2024-12-01 10:17:41.766 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=302050000
+[INFO ] 2024-12-01 10:17:41.767 [worker-business-thread] MiniBenchDsvApp - CPU average load: 126.416015625%
+[INFO ] 2024-12-01 10:17:41.785 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=302000000
+[INFO ] 2024-12-01 10:17:41.785 [consumer-thread] MiniBenchDsvApp - CPU average load: 126.416015625%
+[INFO ] 2024-12-01 10:17:43.557 [producer-thread] MiniBenchDsvApp - Number of messages pending=302000000
+[INFO ] 2024-12-01 10:17:43.557 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 21.0 GB
+[INFO ] 2024-12-01 10:17:45.720 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=302000000
+[INFO ] 2024-12-01 10:17:45.720 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 126.416015625%
+[INFO ] 2024-12-01 10:17:45.834 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:17:54.669 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=301500000
+[INFO ] 2024-12-01 10:17:54.669 [consumer-thread] MiniBenchDsvApp - CPU average load: 114.94140625%
+[INFO ] 2024-12-01 10:17:55.708 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=301550000
+[INFO ] 2024-12-01 10:17:55.708 [worker-business-thread] MiniBenchDsvApp - CPU average load: 114.94140625%
+[INFO ] 2024-12-01 10:18:07.245 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=301000000
+[INFO ] 2024-12-01 10:18:07.245 [consumer-thread] MiniBenchDsvApp - CPU average load: 121.484375%
+[INFO ] 2024-12-01 10:18:08.166 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=301000000
+[INFO ] 2024-12-01 10:18:08.166 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 121.484375%
+[INFO ] 2024-12-01 10:18:08.518 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=301000000
+[INFO ] 2024-12-01 10:18:08.518 [worker-business-thread] MiniBenchDsvApp - CPU average load: 121.484375%
+[INFO ] 2024-12-01 10:18:20.413 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=310500000
+[INFO ] 2024-12-01 10:18:20.414 [consumer-thread] MiniBenchDsvApp - CPU average load: 118.115234375%
+[INFO ] 2024-12-01 10:18:21.019 [producer-thread] MiniBenchDsvApp - Number of messages pending=310500000
+[INFO ] 2024-12-01 10:18:21.019 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 22.0 GB
+[INFO ] 2024-12-01 10:18:21.434 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=310500000
+[INFO ] 2024-12-01 10:18:21.434 [worker-business-thread] MiniBenchDsvApp - CPU average load: 140.72265625%
+[INFO ] 2024-12-01 10:18:23.525 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:18:55.884 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=320000000
+[INFO ] 2024-12-01 10:18:55.885 [consumer-thread] MiniBenchDsvApp - CPU average load: 231.982421875%
+[INFO ] 2024-12-01 10:18:55.885 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=320150000
+[INFO ] 2024-12-01 10:18:55.885 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 231.982421875%
+[INFO ] 2024-12-01 10:18:55.885 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=320000000
+[INFO ] 2024-12-01 10:18:55.885 [worker-business-thread] MiniBenchDsvApp - CPU average load: 231.982421875%
+[INFO ] 2024-12-01 10:18:59.466 [producer-thread] MiniBenchDsvApp - Number of messages pending=320000000
+[INFO ] 2024-12-01 10:18:59.466 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 22.0 GB
+[INFO ] 2024-12-01 10:19:01.524 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:19:08.803 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=319550000
+[INFO ] 2024-12-01 10:19:08.803 [worker-business-thread] MiniBenchDsvApp - CPU average load: 232.861328125%
+[INFO ] 2024-12-01 10:19:08.870 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=319500000
+[INFO ] 2024-12-01 10:19:08.870 [consumer-thread] MiniBenchDsvApp - CPU average load: 232.861328125%
+[INFO ] 2024-12-01 10:19:38.858 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=329000000
+[INFO ] 2024-12-01 10:19:38.858 [producer-thread] MiniBenchDsvApp - Number of messages pending=329000000
+[INFO ] 2024-12-01 10:19:38.858 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=329150000
+[INFO ] 2024-12-01 10:19:38.858 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=329050000
+[INFO ] 2024-12-01 10:19:38.858 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 22.0 GB
+[INFO ] 2024-12-01 10:19:38.858 [consumer-thread] MiniBenchDsvApp - CPU average load: 256.884765625%
+[INFO ] 2024-12-01 10:19:38.858 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 256.884765625%
+[INFO ] 2024-12-01 10:19:38.858 [worker-business-thread] MiniBenchDsvApp - CPU average load: 256.884765625%
+[INFO ] 2024-12-01 10:19:42.757 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:19:52.252 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=328550000
+[INFO ] 2024-12-01 10:19:52.252 [worker-business-thread] MiniBenchDsvApp - CPU average load: 230.76171875%
+[INFO ] 2024-12-01 10:19:52.344 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=328500000
+[INFO ] 2024-12-01 10:19:52.344 [consumer-thread] MiniBenchDsvApp - CPU average load: 230.76171875%
+[INFO ] 2024-12-01 10:20:01.776 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=328200000
+[INFO ] 2024-12-01 10:20:01.776 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 211.23046875%
+[INFO ] 2024-12-01 10:20:04.818 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=328050000
+[INFO ] 2024-12-01 10:20:04.818 [worker-business-thread] MiniBenchDsvApp - CPU average load: 211.23046875%
+[INFO ] 2024-12-01 10:20:04.866 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=328000000
+[INFO ] 2024-12-01 10:20:04.866 [consumer-thread] MiniBenchDsvApp - CPU average load: 211.23046875%
+[INFO ] 2024-12-01 10:20:16.789 [producer-thread] MiniBenchDsvApp - Number of messages pending=337550000
+[INFO ] 2024-12-01 10:20:16.789 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 23.0 GB
+[INFO ] 2024-12-01 10:20:17.767 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=337550000
+[INFO ] 2024-12-01 10:20:17.767 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=337500000
+[INFO ] 2024-12-01 10:20:17.767 [worker-business-thread] MiniBenchDsvApp - CPU average load: 195.21484375%
+[INFO ] 2024-12-01 10:20:17.768 [consumer-thread] MiniBenchDsvApp - CPU average load: 195.21484375%
+[INFO ] 2024-12-01 10:20:18.896 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:20:25.162 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=337300000
+[INFO ] 2024-12-01 10:20:25.163 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 179.541015625%
+[INFO ] 2024-12-01 10:20:30.825 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=337050000
+[INFO ] 2024-12-01 10:20:30.826 [worker-business-thread] MiniBenchDsvApp - CPU average load: 173.14453125%
+[INFO ] 2024-12-01 10:20:30.939 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=337000000
+[INFO ] 2024-12-01 10:20:30.940 [consumer-thread] MiniBenchDsvApp - CPU average load: 173.14453125%
+[INFO ] 2024-12-01 10:21:04.595 [producer-thread] MiniBenchDsvApp - Number of messages pending=346500000
+[INFO ] 2024-12-01 10:21:04.595 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=346500000
+[INFO ] 2024-12-01 10:21:04.595 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=346550000
+[INFO ] 2024-12-01 10:21:04.595 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=346500000
+[INFO ] 2024-12-01 10:21:04.596 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 24.0 GB
+[INFO ] 2024-12-01 10:21:04.596 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 387.890625%
+[INFO ] 2024-12-01 10:21:04.596 [consumer-thread] MiniBenchDsvApp - CPU average load: 387.890625%
+[INFO ] 2024-12-01 10:21:04.596 [worker-business-thread] MiniBenchDsvApp - CPU average load: 387.890625%
+[INFO ] 2024-12-01 10:21:13.336 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:21:18.095 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=346050000
+[INFO ] 2024-12-01 10:21:18.095 [worker-business-thread] MiniBenchDsvApp - CPU average load: 406.640625%
+[INFO ] 2024-12-01 10:21:18.166 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=346000000
+[INFO ] 2024-12-01 10:21:18.166 [consumer-thread] MiniBenchDsvApp - CPU average load: 406.640625%
+[INFO ] 2024-12-01 10:21:27.542 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=345700000
+[INFO ] 2024-12-01 10:21:27.542 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 390.91796875%
+[INFO ] 2024-12-01 10:21:31.327 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=345550000
+[INFO ] 2024-12-01 10:21:31.328 [worker-business-thread] MiniBenchDsvApp - CPU average load: 390.91796875%
+[INFO ] 2024-12-01 10:21:31.447 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=345500000
+[INFO ] 2024-12-01 10:21:31.447 [consumer-thread] MiniBenchDsvApp - CPU average load: 415.673828125%
+[INFO ] 2024-12-01 10:22:17.954 [producer-thread] MiniBenchDsvApp - Number of messages pending=355000000
+[INFO ] 2024-12-01 10:22:17.954 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 24.0 GB
+[INFO ] 2024-12-01 10:22:17.963 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=355000000
+[INFO ] 2024-12-01 10:22:17.963 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 368.359375%
+[INFO ] 2024-12-01 10:22:17.965 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=355050000
+[INFO ] 2024-12-01 10:22:17.965 [worker-business-thread] MiniBenchDsvApp - CPU average load: 368.359375%
+[INFO ] 2024-12-01 10:22:17.967 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=355000000
+[INFO ] 2024-12-01 10:22:17.967 [consumer-thread] MiniBenchDsvApp - CPU average load: 368.359375%
+[INFO ] 2024-12-01 10:22:20.238 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:22:31.096 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=354550000
+[INFO ] 2024-12-01 10:22:31.096 [worker-business-thread] MiniBenchDsvApp - CPU average load: 311.669921875%
+[INFO ] 2024-12-01 10:22:32.178 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=354500000
+[INFO ] 2024-12-01 10:22:32.178 [consumer-thread] MiniBenchDsvApp - CPU average load: 302.685546875%
+[INFO ] 2024-12-01 10:22:41.035 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=354250000
+[INFO ] 2024-12-01 10:22:41.036 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 278.41796875%
+[INFO ] 2024-12-01 10:22:43.858 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=354100000
+[INFO ] 2024-12-01 10:22:43.858 [worker-business-thread] MiniBenchDsvApp - CPU average load: 272.119140625%
+[INFO ] 2024-12-01 10:22:44.758 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=354000000
+[INFO ] 2024-12-01 10:22:44.758 [consumer-thread] MiniBenchDsvApp - CPU average load: 272.119140625%
+[INFO ] 2024-12-01 10:22:55.464 [producer-thread] MiniBenchDsvApp - Number of messages pending=363650000
+[INFO ] 2024-12-01 10:22:55.464 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 25.0 GB
+[INFO ] 2024-12-01 10:22:57.499 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=363550000
+[INFO ] 2024-12-01 10:22:57.499 [worker-business-thread] MiniBenchDsvApp - CPU average load: 327.490234375%
+[INFO ] 2024-12-01 10:23:00.005 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=363500000
+[INFO ] 2024-12-01 10:23:00.006 [consumer-thread] MiniBenchDsvApp - CPU average load: 327.490234375%
+[INFO ] 2024-12-01 10:23:00.422 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:23:11.401 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=363450000
+[INFO ] 2024-12-01 10:23:11.402 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 369.43359375%
+[INFO ] 2024-12-01 10:23:16.557 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=363150000
+[INFO ] 2024-12-01 10:23:16.557 [worker-business-thread] MiniBenchDsvApp - CPU average load: 404.931640625%
+[INFO ] 2024-12-01 10:23:16.557 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=363000000
+[INFO ] 2024-12-01 10:23:16.557 [consumer-thread] MiniBenchDsvApp - CPU average load: 404.931640625%
+[INFO ] 2024-12-01 10:23:29.996 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=362550000
+[INFO ] 2024-12-01 10:23:29.996 [worker-business-thread] MiniBenchDsvApp - CPU average load: 396.77734375%
+[INFO ] 2024-12-01 10:23:30.007 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=362500000
+[INFO ] 2024-12-01 10:23:30.007 [consumer-thread] MiniBenchDsvApp - CPU average load: 396.77734375%
+[INFO ] 2024-12-01 10:23:34.984 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=372450000
+[INFO ] 2024-12-01 10:23:34.984 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 405.078125%
+[INFO ] 2024-12-01 10:23:36.131 [producer-thread] MiniBenchDsvApp - Number of messages pending=372400000
+[INFO ] 2024-12-01 10:23:36.131 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 26.0 GB
+[INFO ] 2024-12-01 10:23:39.482 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:23:43.439 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=372050000
+[INFO ] 2024-12-01 10:23:43.439 [worker-business-thread] MiniBenchDsvApp - CPU average load: 411.669921875%
+[INFO ] 2024-12-01 10:23:43.531 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=372000000
+[INFO ] 2024-12-01 10:23:43.531 [consumer-thread] MiniBenchDsvApp - CPU average load: 411.669921875%
+[INFO ] 2024-12-01 10:24:11.003 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=379085796
+[INFO ] 2024-12-01 10:24:11.003 [worker-business-thread] MiniBenchDsvApp - CPU average load: 381.494140625%
+[INFO ] 2024-12-01 10:24:11.005 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=379045447
+[INFO ] 2024-12-01 10:24:11.005 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 381.494140625%
+[INFO ] 2024-12-01 10:24:11.005 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=379046092
+[INFO ] 2024-12-01 10:24:11.005 [consumer-thread] MiniBenchDsvApp - CPU average load: 381.494140625%
+[INFO ] 2024-12-01 10:24:13.636 [producer-thread] MiniBenchDsvApp - Number of messages pending=381500000
+[INFO ] 2024-12-01 10:24:13.636 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 26.0 GB
+[INFO ] 2024-12-01 10:24:15.675 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:24:24.198 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=381000000
+[INFO ] 2024-12-01 10:24:24.198 [consumer-thread] MiniBenchDsvApp - CPU average load: 319.7265625%
+[INFO ] 2024-12-01 10:24:24.607 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=381050000
+[INFO ] 2024-12-01 10:24:24.607 [worker-business-thread] MiniBenchDsvApp - CPU average load: 319.7265625%
+[INFO ] 2024-12-01 10:24:34.196 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=380700000
+[INFO ] 2024-12-01 10:24:34.196 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 278.515625%
+[INFO ] 2024-12-01 10:24:37.045 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=380500000
+[INFO ] 2024-12-01 10:24:37.045 [consumer-thread] MiniBenchDsvApp - CPU average load: 272.216796875%
+[INFO ] 2024-12-01 10:24:37.278 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=380500000
+[INFO ] 2024-12-01 10:24:37.278 [worker-business-thread] MiniBenchDsvApp - CPU average load: 272.216796875%
+[INFO ] 2024-12-01 10:24:50.902 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=390000000
+[INFO ] 2024-12-01 10:24:50.903 [consumer-thread] MiniBenchDsvApp - CPU average load: 270.41015625%
+[INFO ] 2024-12-01 10:24:51.035 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=390000000
+[INFO ] 2024-12-01 10:24:51.035 [worker-business-thread] MiniBenchDsvApp - CPU average load: 270.41015625%
+[INFO ] 2024-12-01 10:24:51.438 [producer-thread] MiniBenchDsvApp - Number of messages pending=390000000
+[INFO ] 2024-12-01 10:24:51.438 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 27.0 GB
+[INFO ] 2024-12-01 10:25:01.951 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:25:08.284 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=389850000
+[INFO ] 2024-12-01 10:25:08.285 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 343.5546875%
+[INFO ] 2024-12-01 10:25:13.897 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=389500000
+[INFO ] 2024-12-01 10:25:13.897 [worker-business-thread] MiniBenchDsvApp - CPU average load: 348.095703125%
+[INFO ] 2024-12-01 10:25:13.904 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=389500000
+[INFO ] 2024-12-01 10:25:13.904 [consumer-thread] MiniBenchDsvApp - CPU average load: 348.095703125%
+[INFO ] 2024-12-01 10:25:27.280 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=389050000
+[INFO ] 2024-12-01 10:25:27.280 [worker-business-thread] MiniBenchDsvApp - CPU average load: 331.298828125%
+[INFO ] 2024-12-01 10:25:27.670 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=389000000
+[INFO ] 2024-12-01 10:25:27.670 [consumer-thread] MiniBenchDsvApp - CPU average load: 331.298828125%
+[INFO ] 2024-12-01 10:25:32.964 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=393401394
+[INFO ] 2024-12-01 10:25:32.964 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 328.759765625%
+[INFO ] 2024-12-01 10:25:37.934 [producer-thread] MiniBenchDsvApp - Number of messages pending=398700000
+[INFO ] 2024-12-01 10:25:37.934 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 27.0 GB
+[INFO ] 2024-12-01 10:26:14.099 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:26:14.113 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=398500000
+[INFO ] 2024-12-01 10:26:14.113 [consumer-thread] MiniBenchDsvApp - CPU average load: 347.998046875%
+[INFO ] 2024-12-01 10:26:14.121 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=398550000
+[INFO ] 2024-12-01 10:26:14.121 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=398500000
+[INFO ] 2024-12-01 10:26:14.121 [worker-business-thread] MiniBenchDsvApp - CPU average load: 347.998046875%
+[INFO ] 2024-12-01 10:26:14.121 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 347.998046875%
+[INFO ] 2024-12-01 10:26:28.089 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=398000000
+[INFO ] 2024-12-01 10:26:28.089 [consumer-thread] MiniBenchDsvApp - CPU average load: 286.9140625%
+[INFO ] 2024-12-01 10:26:28.444 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=398050000
+[INFO ] 2024-12-01 10:26:28.444 [worker-business-thread] MiniBenchDsvApp - CPU average load: 286.9140625%
+[INFO ] 2024-12-01 10:26:37.497 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=397700000
+[INFO ] 2024-12-01 10:26:37.497 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 250.78125%
+[INFO ] 2024-12-01 10:26:41.248 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=397500000
+[INFO ] 2024-12-01 10:26:41.248 [consumer-thread] MiniBenchDsvApp - CPU average load: 250.78125%
+[INFO ] 2024-12-01 10:26:41.421 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=397500000
+[INFO ] 2024-12-01 10:26:41.421 [worker-business-thread] MiniBenchDsvApp - CPU average load: 250.78125%
+[INFO ] 2024-12-01 10:26:48.256 [producer-thread] MiniBenchDsvApp - Number of messages pending=407300000
+[INFO ] 2024-12-01 10:26:48.256 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 28.0 GB
+[INFO ] 2024-12-01 10:26:52.080 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:26:56.649 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=407000000
+[INFO ] 2024-12-01 10:26:56.650 [consumer-thread] MiniBenchDsvApp - CPU average load: 266.6015625%
+[INFO ] 2024-12-01 10:26:58.008 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=407000000
+[INFO ] 2024-12-01 10:26:58.008 [worker-business-thread] MiniBenchDsvApp - CPU average load: 285.302734375%
+[INFO ] 2024-12-01 10:27:15.807 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=406500000
+[INFO ] 2024-12-01 10:27:15.807 [worker-business-thread] MiniBenchDsvApp - CPU average load: 318.798828125%
+[INFO ] 2024-12-01 10:27:15.838 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=406500000
+[INFO ] 2024-12-01 10:27:15.838 [consumer-thread] MiniBenchDsvApp - CPU average load: 318.798828125%
+[INFO ] 2024-12-01 10:27:15.838 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=407000000
+[INFO ] 2024-12-01 10:27:15.838 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 318.798828125%
+[INFO ] 2024-12-01 10:27:29.675 [producer-thread] MiniBenchDsvApp - Number of messages pending=416100000
+[INFO ] 2024-12-01 10:27:29.675 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 29.0 GB
+[INFO ] 2024-12-01 10:27:45.546 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:27:45.546 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=416000000
+[INFO ] 2024-12-01 10:27:45.546 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=416050000
+[INFO ] 2024-12-01 10:27:45.546 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=416000000
+[INFO ] 2024-12-01 10:27:45.546 [consumer-thread] MiniBenchDsvApp - CPU average load: 409.423828125%
+[INFO ] 2024-12-01 10:27:45.546 [worker-business-thread] MiniBenchDsvApp - CPU average load: 409.423828125%
+[INFO ] 2024-12-01 10:27:45.546 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 409.423828125%
+[INFO ] 2024-12-01 10:28:33.593 [producer-thread] MiniBenchDsvApp - Number of messages pending=425500000
+[INFO ] 2024-12-01 10:28:33.593 [producer-thread] MiniBenchDsvApp - [NORMAL] Still producing data. Used memory: 29.0 GB
+[INFO ] 2024-12-01 10:28:33.608 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=425500000
+[INFO ] 2024-12-01 10:28:33.608 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 342.87109375%
+[INFO ] 2024-12-01 10:28:33.615 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=425500000
+[INFO ] 2024-12-01 10:28:33.615 [consumer-thread] MiniBenchDsvApp - CPU average load: 342.87109375%
+[INFO ] 2024-12-01 10:28:33.615 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=425550000
+[INFO ] 2024-12-01 10:28:33.615 [worker-business-thread] MiniBenchDsvApp - CPU average load: 342.87109375%
+[INFO ] 2024-12-01 10:28:36.392 [producer-thread] MiniBenchDsvApp - Reached MAX_MESSAGES_IN_QUEUE=200000000. Slowing down production of data.
+[INFO ] 2024-12-01 10:28:46.996 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=425000000
+[INFO ] 2024-12-01 10:28:46.996 [consumer-thread] MiniBenchDsvApp - CPU average load: 298.92578125%
+[INFO ] 2024-12-01 10:28:47.186 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=425050000
+[INFO ] 2024-12-01 10:28:47.186 [worker-business-thread] MiniBenchDsvApp - CPU average load: 298.92578125%
+[INFO ] 2024-12-01 10:28:57.133 [worker-IO-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=424700000
+[INFO ] 2024-12-01 10:28:57.133 [worker-IO-thread] MiniBenchDsvApp - CPU average load: 260.9375%
+[INFO ] 2024-12-01 10:29:00.334 [consumer-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=424500000
+[INFO ] 2024-12-01 10:29:00.334 [consumer-thread] MiniBenchDsvApp - CPU average load: 260.9375%
+[INFO ] 2024-12-01 10:29:00.486 [worker-business-thread] MiniBenchDsvApp - Still polling messages and performing computational tasks. Messages pending=424500000
+[INFO ] 2024-12-01 10:29:00.486 [worker-business-thread] MiniBenchDsvApp - CPU average load: 260.9375%
+[INFO ] 2024-12-01 10:29:07.887 [main] MiniBenchDsvApp - Benchmark completed!
+[INFO ] 2024-12-01 10:29:07.887 [producer-thread] MiniBenchDsvApp - Thread finished
+[INFO ] 2024-12-01 10:29:08.429 [consumer-thread] MiniBenchDsvApp - Thread finished
+[INFO ] 2024-12-01 10:29:08.517 [worker-business-thread] MiniBenchDsvApp - Messages processed end result:35350000
+[INFO ] 2024-12-01 10:29:09.170 [worker-IO-thread] MiniBenchDsvApp - Messages processed end result:20750000

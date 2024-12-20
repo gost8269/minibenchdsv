@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Benchmark ZGC Generational" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="su.dsv.benchmark.MiniBenchDsvMain" />
+    <module name="MiniBenchDSV" />
+    <option name="VM_PARAMETERS" value="-Xms1G -Xmx40G -verbose:gc -Xlog:gc*:file=$USER_HOME$/temp/logs/ZGC_Generational_benchmark_gc.log -Dlog4j2.configurationFile=file:log4j2.xml -Dbase.log.path=$USER_HOME$/temp/logs/ -Dgc.name=ZGC_Generational -DLog4jContextSelector=org.apache.logging.log4j.core.async.AsyncLoggerContextSelector -XX:+UseZGC -XX:+ZGenerational" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
